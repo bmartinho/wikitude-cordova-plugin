@@ -38,7 +38,7 @@
         <lib-file src="src/android/wikitudesdk.aar"/>
 
         <!-- copy build extras, necessary for wikitude.aar -->
-        <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
+        <framework src="src/android/libs/wikitude-build-extras.gradle" custom="true" type="gradleReference" /> 
 
         <!-- add permissions and requirements -->
         <config-file target="AndroidManifest.xml" parent="/manifest">
