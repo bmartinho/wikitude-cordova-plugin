@@ -35,7 +35,7 @@
         <source-file src="src/android/WikitudePlugin.java" target-dir="src/com/wikitude/phonegap" />
 
         <!-- copy wikitude sdk -->
-        <lib-file src="src/android/wikitudesdk.aar"/>
+        <source-file src="src/android/wikitudesdk.aar" target-dir="libs/" />
 
         <!-- copy build extras, necessary for wikitude.aar -->
         <framework src="src/android/wikitude-build-extras.gradle" custom="true" type="gradleReference" /> 
