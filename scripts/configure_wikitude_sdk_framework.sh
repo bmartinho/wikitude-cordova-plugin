@@ -42,6 +42,8 @@ find . -type d -name "WikitudeSDK.framework" | while read dir; do
     echo "'"${dir}"' is a valid Wikitude SDK."
   fi
   
+ done
+  
   APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
 
 # This script loops through the frameworks embedded in the application and
