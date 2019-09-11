@@ -48,7 +48,7 @@ find . -type d -name "WikitudeSDK.framework" | while read dir; do
 
 # This script loops through the frameworks embedded in the application and
 # removes unused architectures.
-find "$APP_PATH" -name '*.framework' -type d | while read -r FRAMEWORK
+find "$APP_PATH" -name 'WikitudeSDK.framework' -type d | while read -r FRAMEWORK
 do
 FRAMEWORK_EXECUTABLE_NAME=$(defaults read "$FRAMEWORK/Info.plist" CFBundleExecutable)
 FRAMEWORK_EXECUTABLE_PATH="$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME"
