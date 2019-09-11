@@ -43,8 +43,8 @@ find . -type d -name "WikitudeSDK.framework" | while read dir; do
   fi
   
  done
-  
-  APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
+ 
+ APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
 
 # This script loops through the frameworks embedded in the application and
 # removes unused architectures.
